@@ -48,6 +48,7 @@
     "bin": "oclif-readme-test",
     "dirname": "oclif-readme-test",
     "commands": "./dist/commands",
+    "helpClass": "./dist/help",
     "plugins": [
       "@oclif/plugin-help",
       "@oclif/plugin-plugins"

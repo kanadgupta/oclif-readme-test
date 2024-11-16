@@ -48,19 +48,19 @@ USAGE
 Say hello
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test hello PERSON -f <value>
 
-ARGUMENTS
+[1mARGUMENTS[22m
   PERSON  Person to say hello to
 
-FLAGS
-  -f, --from=<value>  (required) Who is saying hello
+[1mFLAGS[22m
+  -f, --from=[4m<value>[24m  (required) Who is saying hello
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Say hello
 
-EXAMPLES
+[1mEXAMPLES[22m
   $ oclif-readme-test hello friend --from oclif
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
@@ -72,13 +72,13 @@ _See code: [src/commands/hello/index.ts](https://github.com/kanadgupta/oclif-rea
 Say hello world
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test hello world
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Say hello world
 
-EXAMPLES
+[1mEXAMPLES[22m
   $ oclif-readme-test hello world
   hello world! (./src/commands/hello/world.ts)
 ```
@@ -90,16 +90,16 @@ _See code: [src/commands/hello/world.ts](https://github.com/kanadgupta/oclif-rea
 Display help for oclif-readme-test.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test help [COMMAND...] [-n]
 
-ARGUMENTS
+[1mARGUMENTS[22m
   COMMAND...  Command to show help for.
 
-FLAGS
+[1mFLAGS[22m
   -n, --nested-commands  Include all nested commands in the output.
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Display help for oclif-readme-test.
 ```
 
@@ -110,19 +110,19 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v6.2.1
 List installed plugins.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins [--json] [--core]
 
-FLAGS
+[1mFLAGS[22m
   --core  Show core plugins.
 
-GLOBAL FLAGS
+[1mGLOBAL FLAGS[22m
   --json  Format output as json.
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   List installed plugins.
 
-EXAMPLES
+[1mEXAMPLES[22m
   $ oclif-readme-test plugins
 ```
 
@@ -133,22 +133,22 @@ _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/
 Installs a plugin into oclif-readme-test.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins add PLUGIN... [--json] [-f] [-h] [-s | -v]
 
-ARGUMENTS
+[1mARGUMENTS[22m
   PLUGIN...  Plugin to install.
 
-FLAGS
+[1mFLAGS[22m
   -f, --force    Force npm to fetch remote resources even if a local copy exists on disk.
   -h, --help     Show CLI help.
   -s, --silent   Silences npm output.
   -v, --verbose  Show verbose npm output.
 
-GLOBAL FLAGS
+[1mGLOBAL FLAGS[22m
   --json  Format output as json.
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Installs a plugin into oclif-readme-test.
 
   Uses npm to install plugins.
@@ -158,10 +158,10 @@ DESCRIPTION
   Use the OCLIF_README_TEST_NPM_LOG_LEVEL environment variable to set the npm loglevel.
   Use the OCLIF_README_TEST_NPM_REGISTRY environment variable to set the npm registry.
 
-ALIASES
+[1mALIASES[22m
   $ oclif-readme-test plugins add
 
-EXAMPLES
+[1mEXAMPLES[22m
   Install a plugin from npm registry.
 
     $ oclif-readme-test plugins add myplugin
@@ -180,23 +180,23 @@ EXAMPLES
 Displays installation properties of a plugin.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins inspect PLUGIN...
 
-ARGUMENTS
+[1mARGUMENTS[22m
   PLUGIN...  [default: .] Plugin to inspect.
 
-FLAGS
+[1mFLAGS[22m
   -h, --help     Show CLI help.
   -v, --verbose
 
-GLOBAL FLAGS
+[1mGLOBAL FLAGS[22m
   --json  Format output as json.
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Displays installation properties of a plugin.
 
-EXAMPLES
+[1mEXAMPLES[22m
   $ oclif-readme-test plugins inspect myplugin
 ```
 
@@ -207,22 +207,22 @@ _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/
 Installs a plugin into oclif-readme-test.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins install PLUGIN... [--json] [-f] [-h] [-s | -v]
 
-ARGUMENTS
+[1mARGUMENTS[22m
   PLUGIN...  Plugin to install.
 
-FLAGS
+[1mFLAGS[22m
   -f, --force    Force npm to fetch remote resources even if a local copy exists on disk.
   -h, --help     Show CLI help.
   -s, --silent   Silences npm output.
   -v, --verbose  Show verbose npm output.
 
-GLOBAL FLAGS
+[1mGLOBAL FLAGS[22m
   --json  Format output as json.
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Installs a plugin into oclif-readme-test.
 
   Uses npm to install plugins.
@@ -232,10 +232,10 @@ DESCRIPTION
   Use the OCLIF_README_TEST_NPM_LOG_LEVEL environment variable to set the npm loglevel.
   Use the OCLIF_README_TEST_NPM_REGISTRY environment variable to set the npm registry.
 
-ALIASES
+[1mALIASES[22m
   $ oclif-readme-test plugins add
 
-EXAMPLES
+[1mEXAMPLES[22m
   Install a plugin from npm registry.
 
     $ oclif-readme-test plugins install myplugin
@@ -256,27 +256,26 @@ _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/
 Links a plugin into the CLI for development.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins link PATH [-h] [--install] [-v]
 
-ARGUMENTS
+[1mARGUMENTS[22m
   PATH  [default: .] path to plugin
 
-FLAGS
+[1mFLAGS[22m
   -h, --help          Show CLI help.
   -v, --verbose
       --[no-]install  Install dependencies after linking the plugin.
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Links a plugin into the CLI for development.
 
   Installation of a linked plugin will override a user-installed or core plugin.
 
-  e.g. If you have a user-installed or core plugin that has a 'hello' command, installing a linked plugin with a 'hello'
-  command will override the user-installed or core plugin implementation. This is useful for development work.
+  e.g. If you have a user-installed or core plugin that has a 'hello' command, installing a linked plugin with a 'hello' command will override the user-installed or core plugin implementation. This is useful for development work.
 
 
-EXAMPLES
+[1mEXAMPLES[22m
   $ oclif-readme-test plugins link myplugin
 ```
 
@@ -287,24 +286,24 @@ _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/
 Removes a plugin from the CLI.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins remove [PLUGIN...] [-h] [-v]
 
-ARGUMENTS
+[1mARGUMENTS[22m
   PLUGIN...  plugin to uninstall
 
-FLAGS
+[1mFLAGS[22m
   -h, --help     Show CLI help.
   -v, --verbose
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Removes a plugin from the CLI.
 
-ALIASES
+[1mALIASES[22m
   $ oclif-readme-test plugins unlink
   $ oclif-readme-test plugins remove
 
-EXAMPLES
+[1mEXAMPLES[22m
   $ oclif-readme-test plugins remove myplugin
 ```
 
@@ -313,10 +312,10 @@ EXAMPLES
 Remove all user-installed and linked plugins.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins reset [--hard] [--reinstall]
 
-FLAGS
+[1mFLAGS[22m
   --hard       Delete node_modules and package manager related files in addition to uninstalling plugins.
   --reinstall  Reinstall all plugins after uninstalling.
 ```
@@ -328,24 +327,24 @@ _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/
 Removes a plugin from the CLI.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins uninstall [PLUGIN...] [-h] [-v]
 
-ARGUMENTS
+[1mARGUMENTS[22m
   PLUGIN...  plugin to uninstall
 
-FLAGS
+[1mFLAGS[22m
   -h, --help     Show CLI help.
   -v, --verbose
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Removes a plugin from the CLI.
 
-ALIASES
+[1mALIASES[22m
   $ oclif-readme-test plugins unlink
   $ oclif-readme-test plugins remove
 
-EXAMPLES
+[1mEXAMPLES[22m
   $ oclif-readme-test plugins uninstall myplugin
 ```
 
@@ -356,24 +355,24 @@ _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/
 Removes a plugin from the CLI.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins unlink [PLUGIN...] [-h] [-v]
 
-ARGUMENTS
+[1mARGUMENTS[22m
   PLUGIN...  plugin to uninstall
 
-FLAGS
+[1mFLAGS[22m
   -h, --help     Show CLI help.
   -v, --verbose
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Removes a plugin from the CLI.
 
-ALIASES
+[1mALIASES[22m
   $ oclif-readme-test plugins unlink
   $ oclif-readme-test plugins remove
 
-EXAMPLES
+[1mEXAMPLES[22m
   $ oclif-readme-test plugins unlink myplugin
 ```
 
@@ -382,14 +381,14 @@ EXAMPLES
 Update installed plugins.
 
 ```
-USAGE
+[1mUSAGE[22m
   $ oclif-readme-test plugins update [-h] [-v]
 
-FLAGS
+[1mFLAGS[22m
   -h, --help     Show CLI help.
   -v, --verbose
 
-DESCRIPTION
+[1mDESCRIPTION[22m
   Update installed plugins.
 ```
 
